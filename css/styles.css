@@ -35,6 +35,11 @@ button:focus {
     color: var(--white-color);
     cursor: pointer;
 }
+.request:hover,
+.request:focus{
+    background-color: var(--button-color);
+    color:var(--highlight-color)
+}
 
 /*make bullet-points go away*/
 ul {
