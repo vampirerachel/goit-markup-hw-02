@@ -75,7 +75,7 @@ ul {
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
-        line-height: cal(30/16);     
+        line-height: calc(30/16);     
         text-align: center;
         letter-spacing: 0.06em;
         color:var(--white-color);
@@ -142,6 +142,7 @@ ul {
 
 /*portfolio page*/
 .filter-buttons{
+        font-family: 'roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: calc(30/16);
@@ -195,8 +196,10 @@ ul {
     color: var(--white-color);
     opacity: .6;
 }
+
 .footer-hover:focus,
-.footer-hover:hover{
+.footer-hover:hover {
     color: var(--white-color);
     cursor: pointer;
+    opacity: 1;
 }
